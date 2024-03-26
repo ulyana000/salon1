@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Салон красоты 
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #e092bf;
+             }
+             #nav {background-color: rgb(234, 157, 228);
+                border-top: 1px solid #c4d6c6;
+                border-bottom: 1px solid #afc5b8;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(1, 25, 68);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-image: url(ashes-sitoula-KdZvvyemkPM-unsplash.jpg); 
+background-size: 80% 60%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(206, 244, 146);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Салон красоты "Кукарача" </h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Услуги</a></li>
+                <li><a href="about.html">Информация</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Услуги</a></li>
+                    <li><a href="about.html">Информация</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Наш профессиональный персонал заботится о вашем внешнем облике с любовью и вниманием к каждой детали</p>
+             </div>
+            <div id="main">
+                <p>В нашем салоне вы сможете насладиться широким спектром услуг: от ухода за волосами и макияжа до SPA-процедур и маникюра. Мы используем только качественные средства и самые современные технологии, чтобы подчеркнуть вашу индивидуальность и красоту. Приходите в салон красоты "Кукарача" и доверьте себя профессионалам!</p>
+        </div>
+        <div id="footer">Это подвал с копирайтом</div>
+    </body>
+</html>   
